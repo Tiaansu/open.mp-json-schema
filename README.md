@@ -14,8 +14,3 @@ With this, you can now see warnings and description of each config on your confi
 
 Like this:
 ![image](https://github.com/Tiaansu/open.mp-json-schema/assets/87069680/119c4e20-fe11-43cf-999c-5e0881a6ac47)
-
-
----
-
-I just saw this schema.json while using [shadcn](https://ui.shadcn.com) on my web dev project. [click here](https://ui.shadcn.com/schema.json)
