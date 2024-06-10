@@ -4,7 +4,7 @@
    - It's simple, just add this line in your server's config.json:
 ```json
 {
-  "$schema": "https://github.com/Tiaansu/open.mp-json-schema/blob/main/schema.json",
+  "$schema": "https://github.com/Tiaansu/open.mp-json-schema/raw/main/schema.json",
   // ... other config
 }
 ```
