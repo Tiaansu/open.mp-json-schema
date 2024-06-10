@@ -400,7 +400,7 @@
                     "description": "The port the server should use. You will need to Port Forward in order for players to join your server from outside your LAN."
                 },
                 "public_addr": {
-                    "type": "number",
+                    "type": "string",
                     "default": "",
                     "description": "Some machines you run your server on can have different IPs, this is used so if the address you set in bind config is different, you set a new one. this config variable is only used for DL servers, because in open.mp, it will host a webserver for downloading models"
                 },
@@ -486,7 +486,7 @@
             "description": "The time in milliseconds the main open.mp and raknet networking thread will \"sleep\" idly during each sync cycle. Higher values decreases server processing, but reduces sync quality. Lower values increases server processing, but improves sync quality. It is not advisable to change this value unless your player count is very high and you have server fps stability issues."
         },
         "use_dyn_ticks": {
-            "type": "number",
+            "type": "boolean",
             "default": true,
             "description": "dynticks config is basically for keeping your server's tickrate at a constant count by using cpu more to cover the gap if there's any drop. It is calculated using provided sleep value so if sleep is 5, constant tick count would be 1000 / 5 = 200 ticks per second. open.mp modifies internal sleep value on the fly based on each tick's code execution time, just to keep it steady at 200 ticks, and lower sleep means more cpu usage (which is not a massive difference if server code is written well)"
         },
