@@ -68,6 +68,10 @@
                 }
             }
         },
+        "logo": {
+            "type": "string",
+            "description": "Your server's logo url address that appears in the omp launcher and discord status."
+        },
         "enable_query": {
             "type": "boolean",
             "default": true,
